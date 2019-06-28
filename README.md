@@ -8,7 +8,7 @@ Routes have sets of inputs and outputs, and may optionally perform some processi
 The config defines the initial inputs to the system and the connections between routes.
 
 Middleware is a type of route that performs some processing.
-an Endpoint is a type of middleware that connects to external resources.
+An Endpoint is a type of middleware that connects to external resources.
 
 ## TODO/Short Term Goals
  * [ ] simple acyclical routing and example middleware.
