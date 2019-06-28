@@ -11,13 +11,14 @@ Middleware is a type of route that performs some processing.
 An Endpoint is a type of middleware that connects to external resources.
 
 ## TODO/Short Term Goals
- * [ ] simple acyclical routing and example middleware.
- * [ ] route manager for loops and stuff.
- * [ ] config parser that talks to route manager.
- * [ ] implement jsonrpc endpoints for parity-ethereum.
+ * [ ] simple acyclical routing and example middleware - just process data.
+ * [ ] route manager for loops and stuff - process data persistently.
+ * [ ] config parser that talks to route manager - make it easy to process data.
+ * [ ] implement jsonrpc endpoints for parity-ethereum - make it easy to process ethereum.
  * [ ] some non-trivial interaction between two nodes.
  * [ ] do everything `parity-bridge` currently does.
- * [ ] parse configs provided directly by endpoints.
+ * [ ] parse parts of configs provided directly by endpoints - make it meta.
+ * [ ] offload middleware tasks to other software using endpoints - everything is pluggable.
 
 ## Roadmap/Long Term Goals
  * [ ] Port `parity-bridge` to simple middleware; port it's jsonrpc client logic to simple endpoints.
