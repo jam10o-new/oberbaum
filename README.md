@@ -16,7 +16,7 @@ An Endpoint is a type of middleware that connects to external resources.
  * [ ] config parser that talks to route manager - make it easy to process data.
  * [ ] implement jsonrpc endpoints for parity-ethereum - make it easy to process ethereum.
  * [ ] some non-trivial interaction between two nodes.
- * [ ] do everything `parity-bridge` currently does.
+ * [ ] do everything [`parity-bridge`](https://github.com/paritytech/parity-bridge) currently does.
  * [ ] parse parts of configs provided directly by endpoints - make it meta.
  * [ ] offload middleware tasks to other software using endpoints - everything is pluggable.
 
