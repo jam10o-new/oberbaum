@@ -2,7 +2,7 @@ graph LR
   subgraph
    Y(<b>core</b>)
  init --> Z["query endpoints"]
- Z --> Z1[route output and execute middleware] 
+ Z --> Z1[route output and execute things in middleware] 
 Z1 --> Z2{new query required}
 Z2 -- yes --> Z
 Z2 -- no --> Z1 
